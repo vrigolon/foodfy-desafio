@@ -16,18 +16,18 @@ header, section, main{
 
 /* HEADER */
 
-header div {
+.header-menu {
   margin: 33px 0;
   width: 100%;    
 }
 
-header a {
+.header-menu a {
   font-size: 16px;
   margin: 0px 30px 0px 0px;
   cursor: pointer;
 }
 
-header img {
+.header-menu img {
   vertical-align: middle;
   margin: 0 120px 0 0;
 }
@@ -35,7 +35,7 @@ header img {
 
 /* SECTION (BANNER) */
 
-section {
+.banner {
   width: 100%;
   background-color: #fbdfdb;
   border-radius: 30px;
@@ -44,7 +44,7 @@ section {
   grid-template-columns: 1fr 1fr;
 }
 
-section img {
+.banner img {
   padding: 66px 100px 0px 80px;
 }
 
@@ -53,11 +53,11 @@ section img {
   align-self: center; 
 }
 
-section h2{
+.banner h2{
   font-size: 32px;
 }
 
-section p {
+.banner p {
   font-size: 18px;
   max-width: 320px;
 }
@@ -65,11 +65,11 @@ section p {
 
 /* CARDS */
 
-main {
+.cards-main {
   margin-top: 50px;
 }
 
-main div h2 {
+.cards-main h2 {
   padding-bottom: 20px;
 }
 
@@ -99,19 +99,14 @@ main div h2 {
 
 
 /* FOOTER */
-footer {
+.footer {
   margin-top: 40px;
   width: 99vw;
-
-}
-
-footer div {
   background-color: #eeeeee;
   text-align: center;
-
 }
 
-footer div p {
+.footer p {
   padding: 23px;
   color: #999999;
 }
