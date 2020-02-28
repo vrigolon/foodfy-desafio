@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+header, section, main{
+  max-width: 940px;
+}
+
+/* HEADER */
+
+header div {
+  margin: 33px 0;
+  width: 100%;    
+}
+
+header a {
+  font-size: 16px;
+  margin: 0px 30px 0px 0px;
+  cursor: pointer;
+}
+
+header img {
+  vertical-align: middle;
+  margin: 0 120px 0 0;
+}
+
+
+/* SECTION (BANNER) */
+
+section {
+  width: 100%;
+  background-color: #fbdfdb;
+  border-radius: 30px;
+  height: 366px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section img {
+  padding: 66px 100px 0px 80px;
+}
+
+.text-banner {
+  margin-left:60px;
+  align-self: center; 
+}
+
+section h2{
+  font-size: 32px;
+}
+
+section p {
+  font-size: 18px;
+  max-width: 320px;
+}
+
+
+/* CARDS */
+
+main {
+  margin-top: 50px;
+}
+
+main div h2 {
+  padding-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card img {
+  width: 300px;
+  border-radius: 15px;
+  /* margin-top: 30px; */
+}
+
+.recipe-name {
+  font-size: 18px;
+  color: #111111;
+  margin-top: 20px;
+}
+
+.recipe-author {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  width: 99vw;
+
+}
+
+footer div {
+  background-color: #eeeeee;
+  text-align: center;
+
+}
+
+footer div p {
+  padding: 23px;
+  color: #999999;
+}
+
