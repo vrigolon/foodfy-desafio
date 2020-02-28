@@ -30,6 +30,11 @@ header, section, main{
   color: #111111;
 }
 
+.menu:hover {
+  color: rgb(194, 78, 78);
+  font-weight: bold;
+}
+
 .logo {
   margin-right: 120px;
 }
