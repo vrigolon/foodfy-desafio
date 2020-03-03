@@ -136,3 +136,27 @@ header, section, main{
   color: #999999;
 }
 
+
+
+/* RECIPES PAGE */
+
+.banner-recipe {
+  height: 280px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+
+.banner-recipe img {
+  width: 100%;
+  
+}
+
+.title-recipe {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.recipe {
+  margin-top: 78px;
+}
