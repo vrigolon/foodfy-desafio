@@ -1,8 +1,7 @@
-<h3>Status: em andamento.</h3>
 
 <a href="https://vrigolon.github.io/foodfy-desafio/">Live Demo</a>
 
-
+<a href="https://github.com/vrigolon/foodfy"><h4>Finishing app here</h4></a>
 
 
 
